@@ -20,18 +20,20 @@
     ></script>
   </head>
   <body class="page">
-    <div class="container">
-      <h1>Our Pricing</h1>
-      <div class="toggle-container">
-        <span>Annually</span>
-        <span>
-          <input type="checkbox" name="toggle" id="toggle" unchecked />
-          <label for="toggle">
-            <div class="ball"></div>
-          </label>
-        </span>
-        <span>Monthly</span>
-      </div>
+    <main class="container">
+      <header>
+        <h1>Our Pricing</h1>
+        <div class="toggle-container">
+          <span>Annually</span>
+          <span>
+            <input type="checkbox" name="toggle" id="toggle" unchecked />
+            <label for="toggle">
+              <div class="ball"></div>
+            </label>
+          </span>
+          <span>Monthly</span>
+        </div>
+      </header>
       <div class="flex" id="flexy">
         <div class="price-box">
           <h4>Basic</h4>
@@ -44,7 +46,9 @@
             <li>2 Users Allowed</li>
             <li>Send up to 3 GB</li>
           </ul>
-          <button>Learn More</button>
+          <div>
+            <a href="#">Learn More</a>
+          </div>
         </div>
         <div class="price-box professional gradient">
           <h4>Professional</h4>
@@ -57,7 +61,9 @@
             <li>5 Users Allowed</li>
             <li>Send up to 10 GB</li>
           </ul>
-          <button>Learn More</button>
+          <div>
+            <a href="#">Learn More</a>
+          </div>
         </div>
         <div class="price-box">
           <h4>Master</h4>
@@ -70,15 +76,17 @@
             <li>10 Users Allowed</li>
             <li>Send up to 20 GB</li>
           </ul>
-          <button>Learn More</button>
+          <div>
+            <a href="#">Learn More</a>
+          </div>
         </div>
       </div>
-    </div>
-    <div class="attribution">
+    </main>
+    <footer class="attribution">
       Challenge by
       <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
         >Frontend Mentor</a
       >. Coded by <a href="#">David Robb</a>.
-    </div>
+    </footer>
   </body>
 </html>
