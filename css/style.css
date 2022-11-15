@@ -74,7 +74,9 @@ header {
 }
 
 h1 {
-  color: var(--clr-d-gray-blue);
+  color: var(--clr-gray-blue);
+  font-size: 2rem;
+  padding-bottom: 2rem;
 }
 
 .toggle-container {
@@ -133,7 +135,7 @@ h1 {
   width: 275px;
 }
 
-.price-box h4 {
+.price-box h2 {
   margin: 0;
 }
 
@@ -199,8 +201,8 @@ h1 {
   transform: scale(1.15);
 }
 
-.price-box.professional div {
-  margin-top: 1rem;
+.price-box.professional h2 {
+  padding-top: 1rem;
 }
 
 .price-box.professional > * {
@@ -218,6 +220,10 @@ h1 {
 .price-box.professional ul,
 .price-box.professional ul li {
   border-color: rgba(179, 181, 198, 0.6);
+}
+
+.price-box.professional div {
+  margin-top: 1rem;
 }
 
 .price-box.professional a {
